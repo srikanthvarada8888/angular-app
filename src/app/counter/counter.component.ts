@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-counter',
   template: `
   <div class="counter">
+  Hello world
     <button [style.color]="styles" : 'white'" [disabled] = "!this.counter ? true : false"  type="button" class="btn btn-danger" (click)="decrement()">Decrement -</button>
     <a class="btn btn-success">{{this.counter}}</a>
     <button type="button"  class="btn btn-primary" (click)="increment()">Increment +</button>
